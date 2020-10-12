@@ -1,0 +1,39 @@
+"*":
+  Hydrogen:
+    centerOnMoveDown: true
+    debug: true
+    globalMode: true
+    kernelNotifications: true
+    outputAreaDefault: true
+    outputAreaDock: true
+    outputAreaFontSize: 9
+    wrapOutput: true
+  core:
+    disabledPackages: [
+      "teletype"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    uriHandlerRegistration: "always"
+  editor:
+    fontSize: 15
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "713df982-1cb1-4274-aee9-273cbadb933f"
+  github:
+    filesystemEventDiagnostics: true
+    gitDiagnostics: true
+    performanceToConsole: true
+    performanceToProfile: true
+    reportCannotLocateWorkspaceError: true
+    showDiffIconGutter: true
+  welcome:
+    showOnStartup: false
+".breakpoints.hydrogen":
+  editor:
+    scrollPastEnd: true
